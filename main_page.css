@@ -130,10 +130,6 @@
     font-weight: 600;
 }
 
-.italicFontStyle {
-    font-style: italic;
-}
-
 .iconPersonalQualities::before {
     margin-right: 10px;
     font-family: "Material Icons";
@@ -194,4 +190,17 @@ footer ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #7d7f83;
+}
+
+footer p {
+    color: #7d7f83;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
