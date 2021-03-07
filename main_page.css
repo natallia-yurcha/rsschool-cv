@@ -114,6 +114,11 @@
     border-bottom: 1px double #d9dbe0;
 }
 
+.detailedInfoSection h2 {
+    text-align: center;
+    color: #8eecf3;
+}
+
 .detailedInfoSection h3 {
     color: #414144;
 }
@@ -184,6 +189,11 @@ footer {
 footer img {
     width: 100px;
     height: auto;
+}
+
+footer h3 {
+    margin-top: 0;
+    color: #414144;
 }
 
 footer ul {
