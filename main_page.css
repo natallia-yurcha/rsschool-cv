@@ -1,0 +1,216 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 700px;
+    border: 1px solid #d9dbe0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #d9dbe0;
+}
+
+.summaryInfoSection {
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(#031f4b, #8bbbf8);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom: 1px solid #d9dbe0;
+}
+
+.summaryInfoSection img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #d9dbe0;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #d9dbe0;
+}
+
+.summaryInfoSection ul {
+    text-align: left;
+    list-style-type: none;
+    color: #fff;
+    padding-left: 0;
+}
+
+.summaryInfoSection h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    color: #fff;
+}
+
+.summaryInfoSection h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: 500;
+    color: #8eecf3;
+}
+
+.summaryInfoSection h3 {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.summaryInfoSection div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconPhone::before {
+    margin-right: 10px;
+    font-family: "Material Icons";
+    content: "phone";
+    color: #8eecf3;
+}
+
+.iconAddress::before {
+    margin-right: 10px;
+    font-family: "Material Icons";
+    content: "house";
+    color: #8eecf3;
+}
+
+.iconDateOfBirth::before {
+    margin-right: 10px;
+    font-family: "Material Icons";
+    content: "child_friendly";
+    color: #8eecf3;
+}
+
+.iconEmail::before {
+    font-family: "Material Icons";
+    content: "email";
+    margin-right: 10px;
+    color: #8eecf3;
+}
+
+.iconCodeExample::before {
+    font-family: "Material Icons";
+    content: "integration_instructions";
+    margin-right: 10px;
+    color: #8eecf3;
+}
+
+#personalInfoSection span {
+    font-weight: 600;
+    color: #fff;
+}
+
+#skillsSection li::before {
+    margin-right: 10px;
+    font-family: "Material Icons";
+    content: "done";
+    color: #8eecf3;
+}
+
+.detailedInfoSection {
+    padding: 0 30px 30px 30px;
+}
+
+.detailedInfoSection section {
+    border-bottom: 1px double #d9dbe0;
+}
+
+.detailedInfoSection h2 {
+    text-align: center;
+    color: #8eecf3;
+}
+
+.detailedInfoSection h3 {
+    color: #414144;
+}
+
+.detailedInfoSection p {
+    color: #7d7f83;
+}
+
+.detailedInfoSection li {
+    color: #7d7f83;
+}
+
+.boldFontWeight {
+    font-weight: 600;
+}
+
+.iconPersonalQualities::before {
+    margin-right: 10px;
+    font-family: "Material Icons";
+    content: "person";
+    color: #8eecf3;
+}
+
+.iconObjective::before {
+    margin-right: 10px;
+    font-family: "Material Icons";
+    content: "computer";
+    color: #8eecf3;
+}
+
+.iconEducation::before {
+    margin-right: 10px;
+    font-family: "Material Icons";
+    content: "school";
+    color: #8eecf3;
+}
+
+.iconEnglishLevel::before {
+    margin-right: 10px;
+    font-family: "Material Icons";
+    content: "add_box";
+    color: #8eecf3;
+}
+
+.codeExampleBlok {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: rgb(240, 240, 240);
+    color: rgb(68, 68, 68);
+}
+
+.codeHighlightingGreen {
+    color: rgb(57, 115, 0);
+}
+
+.codeHighlightingRed {
+    color: rgb(136, 0, 0);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+}
+
+footer h3 {
+    margin-top: 0;
+    color: #414144;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #7d7f83;
+}
+
+footer p {
+    color: #7d7f83;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
